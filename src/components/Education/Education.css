@@ -1,0 +1,61 @@
+.education-section {
+  background: #161513;
+  color: white;
+  padding: 80px 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.edu-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 60px;
+
+  background: linear-gradient(270deg, #df8908 50.41%, #b415ff 53.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.education-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.edu-card {
+  background: #1c1c1c;
+  border-radius: 15px;
+  padding: 25px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 0 0 2px transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  border-image: linear-gradient(270deg, #df8908 50.41%, #b415ff 90.25%);
+  border-image-slice: 1;
+}
+
+.edu-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #b415ff80;
+}
+
+.edu-card h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.edu-card p {
+  color: #ccc;
+  margin: 0;
+}
+
+.edu-card span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #aaa;
+}

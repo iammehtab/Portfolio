@@ -1,0 +1,27 @@
+.certificate-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  background: linear-gradient(270deg, #df8908 50.41%, #b415ff 53.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.certificate-items img {
+  width: 300px;
+  height: auto;
+  margin: 20px 100px;
+  border: 2px solid #b415ff;
+  display: block;
+
+  object-fit: cover;
+}
+.certificate-items img:hover {
+  box-shadow: 0 0 15px #b415ff80;
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.certificate-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

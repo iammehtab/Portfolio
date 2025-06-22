@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+.list-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  font-size: 20px;
+}
+.nav-connect a {
+  padding: 15px 35px;
+  border-radius: 40px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b92391 102.06%);
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+  color: white;
+  text-decoration: none;
+  display: inline-block; /* Very important */
+}
+
+.nav-connect a:hover {
+  transform: scale(1.1);
+  background: linear-gradient(
+    267deg,
+    #b92391 0.36%,
+    #da7c25 102.06%
+  ); /* optional visual effect */
+}
