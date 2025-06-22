@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
-import Education from "./components/Education/education";
+import Education from "./components/Education/EducationSection";
 import Certificate from "./components/Certificate/Certificate";
 import Contact from "./components/Contact/Contact";
 
