@@ -59,3 +59,10 @@
   font-size: 14px;
   color: #aaa;
 }
+
+@media (max-width: 600px) {
+  .education-section {
+    position: relative;
+    left: 40px;
+  }
+}

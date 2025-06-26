@@ -86,3 +86,42 @@
   color: green;
   margin-top: 20px;
 }
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.social-media img {
+  height: 50px;
+  padding: 10px;
+  margin-top: 10px;
+  position: relative;
+  right: 25px;
+}
+@media (max-width: 600px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form input {
+    position: relative;
+    right: 70px;
+    width: 400px;
+  }
+  .contact-form textarea {
+    width: 400px;
+    position: relative;
+    right: 70px;
+  }
+  .contact-submit {
+    margin: 20px;
+    position: relative;
+    left: 30px;
+  }
+  .social-media {
+    padding: 30px;
+    position: relative;
+    top: 40px;
+  }
+}

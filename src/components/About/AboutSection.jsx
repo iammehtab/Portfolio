@@ -52,7 +52,11 @@ const About = () => {
               <hr style={{ width: "45%" }} />
             </div>
             <div className="about-skill">
-              <p>Tailwind Css[Learning]</p>
+              <p>
+                Tailwind Css
+                <br />
+                [Learning]
+              </p>
               <hr style={{ width: "25%" }} />
             </div>
           </div>

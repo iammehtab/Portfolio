@@ -11,7 +11,9 @@ const Hero = () => {
       </h1>
       <p>Just a guy who turns coffee into code and sometimes magic✨</p>
       <div className="hero-action">
-        <div className="hero-connect">Connect with me</div>
+        <div className="hero-connect">
+          <a href="#contact">Connect with me</a>
+        </div>
         <div className="hero-resume">
           <a href="/Resume(1).pdf" download>
             {" "}

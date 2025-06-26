@@ -4,7 +4,7 @@ import image from "../../assets/certificate1.png";
 
 const Certificate = () => {
   return (
-    <section>
+    <section className="certification-container">
       <h2 className="certificate-title ">Certificate </h2>
       <div className="certificate-container">
         <div className="certificate-items">

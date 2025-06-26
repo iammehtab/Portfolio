@@ -41,9 +41,14 @@
   border-radius: 50px;
   background: linear-gradient(267deg, #da7c25 0.36%, #b92391 100%);
 }
+.hero-connect a {
+  text-decoration: none;
+  color: #fff;
+}
 .hero-connect:hover {
   transform: scale(1.08);
   background: linear-gradient(167deg, #da7c25 0.36%, #b92391 100%);
+  cursor: pointer;
 }
 .hero-resume a {
   color: white;
@@ -58,4 +63,20 @@
 .hero-resume a:hover {
   border-color: #b415ff;
   color: #b415ff;
+}
+
+@media (max-width: 600px) {
+  .hero-action {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero p {
+    position: relative;
+    left: 20px;
+  }
+  .hero-action {
+    position: relative;
+    left: 20px;
+    margin: 20px;
+  }
 }

@@ -25,3 +25,16 @@
   flex-direction: row;
   gap: 20px;
 }
+
+@media (max-width: 600px) {
+  .certificate-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 10px;
+  }
+  .certificate-title {
+    position: relative;
+    left: 10px;
+  }
+}

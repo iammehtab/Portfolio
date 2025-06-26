@@ -64,23 +64,41 @@ const Contact = () => {
               <i className="bx bxs-map"></i>
               <span>Pune, Maharashtra</span>
             </div>
-          </div>
 
-          <form className="contact-form" onSubmit={onSubmit}>
-            <label htmlFor="name">Your Name:</label>
-            <input type="text" placeholder="Enter your name" name="name" />
-            <label htmlFor="email">Your Email:</label>
-            <input type="email" placeholder="Enter your email" name="email" />
-            <label htmlFor="message">Write your message here</label>
-            <textarea
-              name="message"
-              rows="8"
-              placeholder="Enter your message"
-            ></textarea>
-            <button type="submit" className="contact-submit">
-              Submit Now
-            </button>
-          </form>
+            <div className="social-media">
+              <div className="social-items">
+                <a href="https://github.com/iammehtab">
+                  <img src="https://img.icons8.com/?size=100&id=52539&format=png&color=000000" />
+                </a>
+              </div>
+              <div className="social-items">
+                <a href="https://www.linkedin.com/in/mehtab-alam-6a148025b/">
+                  {" "}
+                  <img src="https://img.icons8.com/?size=100&id=IXUU4h36YfmO&format=png&color=000000" />
+                </a>
+              </div>
+              <div className="social-items">
+                <img src="https://img.icons8.com/?size=100&id=43625&format=png&color=000000" />
+              </div>
+            </div>
+          </div>
+          <div className="on-right">
+            <form className="contact-form" onSubmit={onSubmit}>
+              <label htmlFor="name">Your Name:</label>
+              <input type="text" placeholder="Enter your name" name="name" />
+              <label htmlFor="email">Your Email:</label>
+              <input type="email" placeholder="Enter your email" name="email" />
+              <label htmlFor="message">Write your message here</label>
+              <textarea
+                name="message"
+                rows="8"
+                placeholder="Enter your message"
+              ></textarea>
+              <button type="submit" className="contact-submit">
+                Submit Now
+              </button>
+            </form>
+          </div>
         </>
       )}
     </div>
